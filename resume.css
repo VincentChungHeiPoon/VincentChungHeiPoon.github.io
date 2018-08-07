@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(226, 226, 226);
+    margin-top: 2cm;
+}
+/*nav .css*/
+nav{
+    background-color: rgb(48, 48, 61);
+    color : white;
+    padding: 0.5cm;
+}
+.topbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1;
+}
+.topItem{
+    padding: 0.5cm;
+}
+/*nav .css ends here*/
+
+
+/*menu .css*/
+.menu{
+    position: relative;
+    display: inline-block;
+}
+.menuBtn{
+    background-color: rgb(48, 48, 61);
+    color: white;
+    border: none;
+}
+.menuContent{
+    display: none;
+    position: absolute;
+    background-color: rgb(226, 226, 226);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.menuContent a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+.menuContent a:hover {background-color: white;}
+.menu:hover .menuContent{display: block;}
+.menu:hover .menuBtn{background-color: grey;}
+/*menu .css ends here*/
+
+embed{
+    width: 21cm;
+    height: 29.7cm;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
